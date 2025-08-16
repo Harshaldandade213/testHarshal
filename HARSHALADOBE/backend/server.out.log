@@ -1,0 +1,314 @@
+Gemini model initialized successfully
+Warning: AZURE_SPEECH_KEY not found in environment variables
+DocuSense API started successfully
+INFO:     127.0.0.1:53659 - "GET /health HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:53871 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53871 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.33s
+INFO:     127.0.0.1:53871 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /pdf/8cb29be3-fd1e-4c2a-a0e2-b113c43f83c7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.05s
+INFO:     127.0.0.1:53872 - "POST /analyze-documents HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:54151 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54151 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.12s
+INFO:     127.0.0.1:54151 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "GET /pdf/7ebf9986-c220-4c3c-bfac-1348e3d2aaec HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:54152 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54408 - "GET /pdf/7ebf9986-c220-4c3c-bfac-1348e3d2aaec HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:54542 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.19s
+INFO:     127.0.0.1:54543 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /pdf/7f504ce7-000b-47ae-aa61-309f381ce06a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.05s
+INFO:     127.0.0.1:54543 - "POST /analyze-documents HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:54631 - "POST /upload-pdfs HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.07s
+INFO:     127.0.0.1:54631 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54632 - "GET /pdf/c57d5498-4fb3-48d0-8039-b88f2f16407f HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:54653 - "POST /analyze-documents HTTP/1.1" 200 OK
+Cross-connections request for document: c57d5498-4fb3-48d0-8039-b88f2f16407f
+LLM service available: True
+Total documents in store: 4
+Analyzing cross-connections for document: INDIAN GRAVIES AND BASIC PASTE
+Available documents in store: 4
+Comparing with 3 other documents
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Generated 5 additional insights
+Final result: 3 connections, 0 contradictions, 5 insights
+INFO:     127.0.0.1:54665 - "GET /cross-connections/c57d5498-4fb3-48d0-8039-b88f2f16407f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54675 - "OPTIONS /insights HTTP/1.1" 200 OK
+Raw response: TAKEAWAY:  A 100% identical duplicate of a document ("INDIAN GRAVIES AND BASIC PASTE") was found within the document library.
+FACT: Duplicate documents can significantly increase storage costs and mak...
+INFO:     127.0.0.1:54675 - "POST /insights HTTP/1.1" 200 OK
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+INFO:     127.0.0.1:55552 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 6 PDFs in 0.42s
+INFO:     127.0.0.1:55552 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /pdf/8ef2fca9-fdb3-4d15-bbc2-4eb2dda34934 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 6 PDFs in 0.13s
+INFO:     127.0.0.1:55553 - "POST /analyze-documents HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:55589 - "POST /upload-pdfs HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.04s
+INFO:     127.0.0.1:55589 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55589 - "GET /pdf/3fae995f-9d72-47fe-bb41-47a930dc9978 HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:55589 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55595 - "OPTIONS /insights HTTP/1.1" 200 OK
+Raw response: TAKEAWAY: The food described is likely a hearty and flavorful dish, emphasizing plant-based ingredients and healthy fats.
+FACT:  Dry nuts, like almonds and walnuts, are excellent sources of vitamin E,...
+INFO:     127.0.0.1:55595 - "POST /insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55601 - "POST /related-sections HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55602 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55602 - "POST /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:55603 - "POST /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:55615 - "POST /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.02s
+INFO:     127.0.0.1:55617 - "POST /analyze-documents HTTP/1.1" 200 OK
+Cross-connections request for document: 3fae995f-9d72-47fe-bb41-47a930dc9978
+LLM service available: True
+Total documents in store: 11
+Analyzing cross-connections for document: INDIAN GRAVIES AND BASIC PASTE
+Available documents in store: 11
+Comparing with 10 other documents
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: 5.Quiz Application 1 (Spring Boot, MySQL/Postgres)
+LLM analysis result: True, relevance: 0.2
+Added connection: 5.Quiz Application 1 (Spring Boot, MySQL/Postgres) (score: 0.25)
+Analyzing connection with: 4.Cloud Native and 12-Factor App
+LLM analysis result: True, relevance: 0.4
+Added connection: 4.Cloud Native and 12-Factor App (score: 0.4)
+Analyzing connection with: 3.Blue-Green Deployment
+LLM analysis result: True, relevance: 0.4
+Added connection: 3.Blue-Green Deployment (score: 0.4)
+Analyzing connection with: 2.Cloud Computing
+INFO:     127.0.0.1:55624 - "OPTIONS /podcast HTTP/1.1" 200 OK
+LLM analysis result: True, relevance: 0.4
+Added connection: 2.Cloud Computing (score: 0.4)
+Analyzing connection with: 1.What are Microservices?
+TTS service not available
+INFO:     127.0.0.1:55624 - "POST /podcast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55630 - "GET /audio/None HTTP/1.1" 404 Not Found
+LLM analysis result: True, relevance: 0.4
+Added connection: 1.What are Microservices? (score: 0.4)
+Generated 5 additional insights
+Final result: 10 connections, 0 contradictions, 5 insights
+INFO:     127.0.0.1:55618 - "GET /cross-connections/3fae995f-9d72-47fe-bb41-47a930dc9978 HTTP/1.1" 200 OK
+Raw response: Without the actual text to analyze (indicated only by a placeholder ID "3fae995f-9d72-47fe-bb41-47a930dc9978" and font size), I cannot provide meaningful insights.  Please provide the text....
+INFO:     127.0.0.1:55644 - "POST /insights HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:55925 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55925 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.29s
+INFO:     127.0.0.1:55925 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55930 - "GET /pdf/78e2239c-5619-407e-8a17-498b69e3d293 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55930 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.05s
+INFO:     127.0.0.1:55930 - "POST /analyze-documents HTTP/1.1" 200 OK
+Cross-connections request for document: 78e2239c-5619-407e-8a17-498b69e3d293
+LLM service available: True
+Total documents in store: 12
+Analyzing cross-connections for document: INDIAN GRAVIES AND BASIC PASTE
+Available documents in store: 12
+Comparing with 11 other documents
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Analyzing connection with: 5.Quiz Application 1 (Spring Boot, MySQL/Postgres)
+LLM analysis result: True, relevance: 0.3
+Added connection: 5.Quiz Application 1 (Spring Boot, MySQL/Postgres) (score: 0.3)
+Analyzing connection with: 4.Cloud Native and 12-Factor App
+Document intelligence: processed 1 PDFs in 0.11s
+INFO:     127.0.0.1:56075 - "POST /analyze-documents HTTP/1.1" 200 OK
+LLM analysis result: True, relevance: 0.4
+Added connection: 4.Cloud Native and 12-Factor App (score: 0.4)
+Analyzing connection with: 3.Blue-Green Deployment
+Document intelligence: processed 1 PDFs in 0.06s
+INFO:     127.0.0.1:56080 - "POST /analyze-documents HTTP/1.1" 200 OK
+LLM analysis result: True, relevance: 0.4
+Added connection: 3.Blue-Green Deployment (score: 0.4)
+Analyzing connection with: 2.Cloud Computing
+LLM analysis result: True, relevance: 0.3
+Added connection: 2.Cloud Computing (score: 0.3)
+Analyzing connection with: 1.What are Microservices?
+LLM analysis result: True, relevance: 0.4
+Added connection: 1.What are Microservices? (score: 0.4)
+Analyzing connection with: INDIAN GRAVIES AND BASIC PASTE
+LLM analysis result: True, relevance: 1.0
+Added connection: INDIAN GRAVIES AND BASIC PASTE (score: 1.0)
+Generated 5 additional insights
+Final result: 11 connections, 0 contradictions, 5 insights
+INFO:     127.0.0.1:56068 - "GET /cross-connections/78e2239c-5619-407e-8a17-498b69e3d293 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56324 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.22s
+INFO:     127.0.0.1:56324 - "POST /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.04s
+INFO:     127.0.0.1:56327 - "POST /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:56327 - "POST /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:56327 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56332 - "GET /download-highlighted/Unit%20-9%20Masala%20and%20gravey.pdf HTTP/1.1" 404 Not Found
+Document intelligence: processed 1 PDFs in 0.05s
+INFO:     127.0.0.1:56332 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56343 - "OPTIONS /insights HTTP/1.1" 200 OK
+Raw response: The provided text is incomplete and lacks sufficient information for a meaningful analysis.  To provide insights, more context regarding "jabsjkab" and the complete text snippet are needed.  Therefore...
+INFO:     127.0.0.1:56343 - "POST /insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56350 - "OPTIONS /simplify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56350 - "POST /simplify HTTP/1.1" 404 Not Found
+Raw response: The provided text is incomplete and lacks sufficient information for meaningful analysis.  To provide three key insights, more context is needed.  The text snippet only mentions a focus time and a see...
+INFO:     127.0.0.1:56349 - "POST /insights HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:56468 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56468 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.39s
+INFO:     127.0.0.1:56468 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56469 - "GET /pdf/11fae00a-d3b0-4651-b7a5-00ec2338b7dd HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.06s
+INFO:     127.0.0.1:56469 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56484 - "OPTIONS /podcast HTTP/1.1" 200 OK
+TTS service not available
+INFO:     127.0.0.1:56484 - "POST /podcast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56486 - "GET /audio/None HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56876 - "OPTIONS /insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56877 - "OPTIONS /insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56878 - "OPTIONS /insights HTTP/1.1" 200 OK
+Error generating insights: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+INFO:     127.0.0.1:56877 - "POST /insights HTTP/1.1" 200 OK
+Error generating insights: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+INFO:     127.0.0.1:56878 - "POST /insights HTTP/1.1" 200 OK
+Error generating insights: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+INFO:     127.0.0.1:56876 - "POST /insights HTTP/1.1" 200 OK
+Detected language: en
+INFO:     127.0.0.1:58292 - "POST /upload-pdfs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58292 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.27s
+INFO:     127.0.0.1:58292 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58293 - "GET /pdf/bae04241-9eba-452a-92f3-232502309680 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58293 - "OPTIONS /analyze-documents HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.03s
+INFO:     127.0.0.1:58293 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58611 - "POST /related-sections HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58616 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58616 - "POST /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58629 - "POST /related-sections HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58679 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58679 - "POST /related-sections HTTP/1.1" 200 OK
+Document intelligence: processed 1 PDFs in 0.04s
+INFO:     127.0.0.1:58707 - "POST /analyze-documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58892 - "POST /related-sections HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58900 - "OPTIONS /related-sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58900 - "POST /related-sections HTTP/1.1" 200 OK
