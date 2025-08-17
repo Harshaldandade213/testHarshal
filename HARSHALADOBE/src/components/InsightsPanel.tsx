@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Brain } from 'lucide-react';
+import { Brain, FileText, Quote } from 'lucide-react';
 
 interface InsightsPanelProps {
   documentIds?: string[];
@@ -24,25 +24,47 @@ export function InsightsPanel({ documentIds = [], documentId, persona: propPerso
             <h3 className="font-bold text-foreground text-xl">Insights</h3>
               <p className="text-sm text-muted-foreground">
               AI-powered document analysis
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <div className="flex-1 flex items-center justify-center p-6">
+        {currentText && currentText.length > 0 ? (
+          <div className="w-full max-w-md space-y-4">
+            <div className="bg-background/80 rounded-lg p-4 border border-primary/20">
+                            <div className="flex items-start gap-3">
+                <div className="p-2 bg-primary/10 rounded-lg">
+                  <Quote className="h-4 w-4 text-primary" />
+                              </div>
+                <div className="flex-1">
+                  <p className="text-sm text-foreground leading-relaxed font-medium">
+                    "{currentText}"
+                  </p>
+                  {currentPage && (
+                    <p className="text-xs text-muted-foreground mt-2">
+                      Selected from page {currentPage}
                                         </p>
+                                      )}
                                       </div>
                                     </div>
                                   </div>
-
-      <div className="flex-1 flex items-center justify-center">
-        <div className="text-center space-y-4">
+                                </div>
+        ) : (
+          <div className="text-center space-y-4">
                 <div className="p-4 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full w-fit mx-auto">
                   <Brain className="h-12 w-12 text-blue-600" />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">
-              Insights Section
+                Insights Section
                   </h4>
-            <p className="text-sm text-gray-600">
-              This section is currently empty
+              <p className="text-sm text-gray-600">
+                Select text from the document to see it displayed here
                   </p>
                 </div>
                 </div>
+          )}
         </div>
     </div>
   );
